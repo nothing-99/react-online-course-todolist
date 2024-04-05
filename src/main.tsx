@@ -7,13 +7,11 @@ import { lightTheme } from "./theme";
 import { RecoilRoot } from "recoil";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <ThemeProvider theme={lightTheme}>
-      <HelmetProvider>
-        <RecoilRoot>
-          <App />
-        </RecoilRoot>
-      </HelmetProvider>
-    </ThemeProvider>
-  </React.StrictMode>
+  <ThemeProvider theme={lightTheme}>
+    <HelmetProvider>
+      <RecoilRoot>
+        <App />
+      </RecoilRoot>
+    </HelmetProvider>
+  </ThemeProvider>
 );
