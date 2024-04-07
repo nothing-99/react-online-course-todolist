@@ -6,6 +6,8 @@ import TodoItem from "./TodoItem";
 export default function TodoList() {
   const todoList = useRecoilValue(todoListState);
 
+  // test
+  console.log(todoList);
   return (
     <div>
       <header>
