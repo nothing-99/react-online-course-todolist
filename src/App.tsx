@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
-import TodoList from "./ToDoList";
+import TodoList from "./components/TodoList";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
